@@ -19,14 +19,9 @@ A macOS launchd agent that logs every URL you visit in [Arc browser](https://arc
 
 ## Setup
 
-1. Clone and update the plist path:
+1. Clone the repo and update the plist path:
 
-```bash
-git clone https://github.com/fictorial/arc-tabs-logger.git
-cd arc-tabs-logger
-```
-
-Edit `com.fictorial.arc-tabs-logger.plist` and set the path to where you cloned the repo.
+Edit `com.fictorial.arc-tabs-logger.plist` and set the script path to where you cloned the repo.
 
 2. Install the launchd agent:
 
